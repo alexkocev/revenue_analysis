@@ -8,7 +8,7 @@ This project involves fetching data from Magento and Google Analytics 4 (GA4) to
 
 1. **Clone the Repository**
     ```sh
-    git clone https://github.com/yourusername/revenue_analysis.git
+    git clone https://github.com/alexkocev/revenue_analysis.git
     cd revenue_analysis
     ```
 
@@ -47,8 +47,3 @@ This project involves fetching data from Magento and Google Analytics 4 (GA4) to
 /xml_to_csv.ipynb
 /viz_generator.ipynb
 ```
-
-## Summary
-
-This README provides a concise guide to fetching, converting, and visualizing revenue data from Magento and GA4. Follow the steps to ensure a smooth analysis process.
-
