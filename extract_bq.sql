@@ -1,6 +1,5 @@
--- BQ extract MAGENTO data
--- Get order data
--- Update field and table name
+-- BQ extract MAGENTO order data
+-- store the output as bq_magento.csv in folder data/
 -- 834Mb for 6.8M rows
 SELECT  
   id AS transaction_id,
@@ -21,6 +20,7 @@ GROUP BY 1,2,3,4,5,6,7,8,9;
 
 
 -- BQ extract GA4 data TRAFFIC SOURCE
+-- store the output as bq_ga4_source.csv in folder data/
 -- 11.5Gb for 540k rows
 
 SELECT
@@ -35,7 +35,6 @@ SELECT
   ecommerce.purchase_revenue as revenue,
   ecommerce.total_item_quantity as quantity,
   
--- FROM `ga4-bigquery-363918.analytics_253942452.events_*`
 FROM `steadfast-bebop-389314.analytics_310956983.events_*`
 
 WHERE 
@@ -47,6 +46,7 @@ order by datetime
 
 
 -- BQ extract GA4 data ITEM DATA
+-- store the output as bq_ga4_item.csv in folder data/
 -- 6.4Gb for 1.1M rows
 
 SELECT
