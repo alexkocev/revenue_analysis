@@ -3,6 +3,9 @@
 
 This project involves fetching data from Magento and Google Analytics 4 (GA4) to perform revenue analysis.
 
+## What is the output of that repo?
+Check data/Qwertee - Revenue Analysis.pdf.
+All charts and tables are built using custom scripts in viz_generator_bq.ipynb. Get the data and give it a try!
 
 ## How to Run
 
