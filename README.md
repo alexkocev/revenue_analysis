@@ -28,7 +28,7 @@ This project involves fetching data from Magento and Google Analytics 4 (GA4) to
 
 1. **Fetch Data**
     - Run the SQL queries stored in extract_bq.sql inside BigQuery Project. It will fetch data from GA4 and Magento2.
-    - Place the fetched files in the `data/` folder as shwon in each Query comment
+    - Place the fetched files in the `data/` folder as shown in each Query comment
 
 2. **Clean data**
     - Open and run the first cells in the notebook `viz_generator_bq.ipynb`.
